@@ -70,7 +70,7 @@ class HanDoc
                                 if (isset($fun['metadata']) && ! empty($fun['metadata'])) {
                                     $md[] = '```';
                                     foreach ($fun['metadata'] as $funKey => $funVal) {
-                                        $md[] = $this->_getTextByConfigParams($funKey) . ': ' . $funVal . PHP_EOL;
+                                        $md[] = $this->_getTextByConfigParams($funKey) . ': ' . $funVal ;
                                     }
                                     $md[] = '```';
                                 }
