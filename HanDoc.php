@@ -37,6 +37,8 @@ class HanDoc
         
         // 生成MD文件
         $this->_createMd($data);
+        
+        echo "\nOver!\n";
     }
 
     private function _createMd($data)

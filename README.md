@@ -5,6 +5,8 @@ PHP类及其方法的注释生成文档
 
 假设您已经安装过了markdown-styles
 
+`以下假设handoc被下载至/data/handoc/目标`
+
 ## HanDoc 目录说明
 ├── config.php		配置文件
 
@@ -27,7 +29,7 @@ return array(
         'long_desc' => '描述'//参数名自定义
     ),
     'source' => array(
-    	//源文件夹配置, 可多个。
+    	//源文件夹配置, 可多个。`多个文件夹将默认生成index.html入口文档页`
         array(
             'name' => '控制器',
             'dir' => '/data/test/php/',
@@ -41,3 +43,25 @@ return array(
     )
 );
 ```
+### USEAGE, 见./test.php
+```php 
+#!/usr/bin/php
+<?php
+require './Handoc.php';
+$handoc =new HanDoc();
+$handoc->run();
+```
+
+###  md --> html
+```bash
+cd /data/handoc/;
+generate-md   --layout mixu-bootstrap-2col --input ./md/ --output ./html/
+```
+
+`众所周知的伟大墙，生成的某些css使用了不可逾越墙外地址，造成访问不可用,建议使用handoc导出模板生成html。 命令如下`
+```bash
+generate-md   --layout /data/markdown-styles-tpl/handoc --input ./md/ --output ./html/
+```
+
+### ./html对外发布即可
+效果
