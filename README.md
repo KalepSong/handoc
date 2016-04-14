@@ -60,7 +60,7 @@ generate-md   --layout mixu-bootstrap-2col --input ./md/ --output ./html/
 
 `众所周知的伟大墙，生成的某些css使用了不可逾越墙外地址，造成访问不可用,建议使用handoc导出模板生成html。 命令如下`
 ```bash
-generate-md   --layout /data/markdown-styles-tpl/handoc --input ./md/ --output ./html/
+generate-md   --layout /data/handoc/markdown-styles-tpl/handoc --input ./md/ --output ./html/
 ```
 
 ### ./html对外发布即可
