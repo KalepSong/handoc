@@ -7,8 +7,13 @@ PHP类及其方法的注释生成文档
 
 ## HanDoc 目录说明
 ├── config.php		配置文件
+
 ├── HanDoc.php		主程序
+
 ├── html			html目标文件夹
+
 ├── md				md目标文件夹
+
 ├── README.md		
+
 └── test.php		测试例子
