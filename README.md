@@ -17,3 +17,27 @@ PHP类及其方法的注释生成文档
 ├── README.md		
 
 └── test.php		测试例子
+
+### config.php配置文件
+```php 
+<?php
+return array(
+    'mdDir'=>'./md',//md目标文件夹配置
+    'params' => array(
+        'long_desc' => '描述'//参数名自定义
+    ),
+    'source' => array(
+    	//源文件夹配置, 可多个。
+        array(
+            'name' => '控制器',
+            'dir' => '/data/test/php/',
+            'x' => ''
+        ),
+        array(
+            'name' => '用户中心',
+            'dir' => '/data/test/user/',
+            'x' => ''
+        ),
+    )
+);
+```
