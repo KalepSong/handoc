@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>控制器(/data/test/php/)</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+  </head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3"><ul class="nav nav-list">
+    <li class="sidebar-header-1"><a href="#-data-test-php-">控制器(/data/test/php/)</a></li>
+    <li class="sidebar-header-2"><a href="#datacontroller">DataController</a></li>
+    <li class="sidebar-header-3"><a href="#actioncity">actionCity</a></li>
+    <li class="sidebar-header-2"><a href="#indexcontroller">IndexController</a></li>
+    <li class="sidebar-header-3"><a href="#init">init</a></li>
+    <li class="sidebar-header-3"><a href="#actioncreate">actionCreate</a></li>
+    <li class="sidebar-header-3"><a href="#actionlist">actionList</a></li>
+    <li class="sidebar-header-3"><a href="#actionupdate">actionUpdate</a></li>
+    <li class="sidebar-header-3"><a href="#actiondelete">actionDelete</a></li>
+    <li class="sidebar-header-3"><a href="#actionorder">actionOrder</a></li>
+    <li class="sidebar-header-3"><a href="#actionorderstatus">actionOrderstatus</a></li>
+    <li class="sidebar-header-3"><a href="#loadmodel">loadModel</a></li>
+    <li class="sidebar-header-3"><a href="#actionunbind">actionUnbind</a></li>
+    <li class="sidebar-header-3"><a href="#actiondel">actionDel</a></li>
+    <li class="sidebar-header-2"><a href="#sitecontroller">SiteController</a></li>
+    <li class="sidebar-header-3"><a href="#actionerror">actionError</a></li>
+    <li class="sidebar-header-3"><a href="#actionlogout">actionLogout</a></li>
+</ul>
+      </div>
+      <div class="span9 main"><h1 id="-data-test-php-"><a class="header-link" href="#-data-test-php-"></a>控制器(/data/test/php/)</h1>
+<h2 id="datacontroller"><a class="header-link" href="#datacontroller"></a>DataController</h2>
+<pre class="hljs"><code>描述: 地域信息
+<span class="hljs-symbol">author:</span> Kalep</code></pre><h3 id="actioncity"><a class="header-link" href="#actioncity"></a>actionCity</h3>
+<pre class="hljs"><code>描述: 获取城市
+
+param: string $areacode
+
+return: boolean</code></pre><h2 id="indexcontroller"><a class="header-link" href="#indexcontroller"></a>IndexController</h2>
+<pre class="hljs"><code>描述: 默认控制器
+<span class="hljs-symbol">author:</span> Kalep</code></pre><h3 id="init"><a class="header-link" href="#init"></a>init</h3>
+<pre class="hljs"><code>描述: 初始化
+
+<span class="hljs-symbol">author:</span> Kalep</code></pre><h3 id="actioncreate"><a class="header-link" href="#actioncreate"></a>actionCreate</h3>
+<pre class="hljs"><code>描述: 创建用户
+
+<span class="hljs-symbol">author:</span> Kalep</code></pre><h3 id="actionlist"><a class="header-link" href="#actionlist"></a>actionList</h3>
+<pre class="hljs"><code>描述: 列表
+
+<span class="hljs-symbol">author:</span> Kalep</code></pre><h3 id="actionupdate"><a class="header-link" href="#actionupdate"></a>actionUpdate</h3>
+<pre class="hljs"><code>描述: 更新
+
+<span class="hljs-symbol">author:</span> Kalep
+
+<span class="hljs-symbol">throws:</span> CHttpException</code></pre><h3 id="actiondelete"><a class="header-link" href="#actiondelete"></a>actionDelete</h3>
+<pre class="hljs"><code>描述: 删除
+
+<span class="hljs-symbol">author:</span> Kalep</code></pre><h3 id="actionorder"><a class="header-link" href="#actionorder"></a>actionOrder</h3>
+<pre class="hljs"><code>描述: 订单
+
+<span class="hljs-symbol">author:</span> Kalep</code></pre><h3 id="actionorderstatus"><a class="header-link" href="#actionorderstatus"></a>actionOrderstatus</h3>
+<pre class="hljs"><code>描述: 更该预约订单状态
+
+<span class="hljs-symbol">author:</span> Kalep</code></pre><h3 id="loadmodel"><a class="header-link" href="#loadmodel"></a>loadModel</h3>
+<pre class="hljs"><code>描述: Returns <span class="hljs-keyword">the</span> data model based <span class="hljs-keyword">on</span> <span class="hljs-title">the</span> <span class="hljs-title">primary</span> <span class="hljs-title">key</span> <span class="hljs-title">given</span> <span class="hljs-title">in</span> <span class="hljs-title">the</span> <span class="hljs-title">GET</span> <span class="hljs-title">variable</span>.
+If <span class="hljs-keyword">the</span> data model is <span class="hljs-keyword">not</span> found, <span class="hljs-keyword">an</span> HTTP exception will be raised.
+
+<span class="hljs-built_in">param</span>: <span class="hljs-keyword">integer</span> <span class="hljs-keyword">the</span> ID <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> model <span class="hljs-built_in">to</span> be loaded</code></pre><h3 id="actionunbind"><a class="header-link" href="#actionunbind"></a>actionUnbind</h3>
+<pre class="hljs"><code>描述: 
+
+<span class="hljs-symbol">desc:</span> 解绑</code></pre><h3 id="actiondel"><a class="header-link" href="#actiondel"></a>actionDel</h3>
+<pre class="hljs"><code>描述: 
+
+<span class="hljs-symbol">desc:</span> 删除预约项</code></pre><h2 id="sitecontroller"><a class="header-link" href="#sitecontroller"></a>SiteController</h2>
+<pre class="hljs"><code>描述: 默认控制器
+<span class="hljs-symbol">author:</span> Kalep</code></pre><h3 id="actionerror"><a class="header-link" href="#actionerror"></a>actionError</h3>
+<pre class="hljs"><code>描述: This <span class="hljs-keyword">is</span> the action <span class="hljs-keyword">to</span> handle <span class="hljs-keyword">external</span> exceptions.</code></pre><h3 id="actionlogout"><a class="header-link" href="#actionlogout"></a>actionLogout</h3>
+<pre class="hljs"><code>描述: Logs out the current <span class="hljs-keyword">user</span> <span class="hljs-title">and</span> redirect to homepage.</code></pre>      </div>
+    </div>
+  </div>
+
+<script type="text/javascript" src="http://www.05wan.com/js/jquery-1.8.2.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

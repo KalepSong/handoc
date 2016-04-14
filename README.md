@@ -66,4 +66,4 @@ generate-md   --layout /data/markdown-styles-tpl/handoc --input ./md/ --output .
 ### ./html对外发布即可
 效果图
 
-![HanDoc-Tpl](https://github.com/mixu/markdown-styles/raw/master/screenshots/mixu-bootstrap-2col.jpg)
+![HanDoc-Tpl](http://7xj6w3.com1.z0.glb.clouddn.com/1344.png)
