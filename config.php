@@ -8,7 +8,7 @@ return array(
         array(
             'name' => '控制器',
             'dir' => '/data/test/php/',
-            'x' => ''
+            'x' => ''//TODO 例外掉指定文件
         )
     )
 );
