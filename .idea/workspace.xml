@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="331ac923-b0d0-494a-9735-6a8e61fd95f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
-    </list>
+    <list default="true" id="331ac923-b0d0-494a-9735-6a8e61fd95f8" name="Default" comment="" />
     <ignored path="handoc.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -145,6 +143,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="331ac923-b0d0-494a-9735-6a8e61fd95f8" name="Default" comment="" />
